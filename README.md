@@ -22,7 +22,7 @@
 
 ### Heroku
 
-[![Menyebarkan](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mrismanaziz/MusicKu/ pohon/tuan)
+[![Menyebarkan](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SatrugnaFD/MusicKu/ pohon/tuan)
 
 Dapatkan pyrogram (p) `SESSION` dari sini:
 [![Jalankan di Repl.it](https://repl.it/badge/github/SpEcHiDe/GenerateStringSession)](https://repl.it/@mrismanaziz/stringenSession?lite=1&outputonly=1)
