@@ -1,0 +1,87 @@
+{
+  "name": "MusicKu",
+  "logo": "https://telegra.ph/file/fbc74d566e78244155116.png",
+  "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
+  "keywords": ["music", "voicechat", "telegram"],
+  "repository": "https://github.com/satrugnafd/Musicku",
+  "stack": "heroku-20",
+  "buildpacks": [
+   {
+     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+   },
+   {
+     "url": "heroku/python"
+   }   
+  ],        
+  "env": {
+    "SESSION_NAME": {
+      "description": "Masukan String Session Pyrogram (P) untuk assistant yang naik ke VCG",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Masukan Bot Token dari @BotFather",
+      "required": true
+    },
+    "BOT_USERNAME": {
+      "description": "Username bot Anda tanpa @",
+      "required": true
+    },
+    "BOT_NAME": {
+      "description": "Nama Bot MusicPlayer Anda.",
+      "required": false,
+      "value": ""
+    },
+    "SUPPORT_GROUP": {
+      "description": "Grup dukungan MusicPlayer Anda tanpa @ [skip ini jika Anda tidak punya]",
+      "required": false,
+      "value": "mkzmusicsupport"
+    },
+    "PROJECT_NAME": {
+      "description": "Nama proyek MusicPlayer Anda.",
+      "required": false,
+      "value": "MusicKu"
+    },
+    "ASSISTANT_NAME": {
+      "description": "Username Telegram asisten MusicPlayer Anda tanpa @",
+      "required": true
+    },
+    "ARQ_API_KEY": {
+      "description": "Ambil api ARQ dari bot telegram » t.me/ARQRobot atau @ARQRobot",
+      "required": true,
+      "value": ""
+    },    
+    "BG_IMAGE": {
+      "description": "Custom Background Play Musik Gunakan Foto yang Transparant format .png / .jpg",
+      "required": false,
+      "value": "https://telegra.ph/file/cd0b87484429704c7b935.png"
+    },     
+    "UPDATES_CHANNEL": {
+      "description": "Updates Channel tanpa @ [skip ini jika Anda tidak punya]",
+      "required": false,
+      "value": "mkzmusicofficial"
+    },    
+    "API_ID": {
+      "description": "Masukan APP ID Silahkan Ambil dari my.telegram.org/apps atau t.me/scrapmanbot",
+      "required": true
+    },
+    "PMPERMIT": {
+      "description": "Ubah Ke TURN OFF untuk mematikan",
+      "required": false,
+      "value": "ENABLE"
+    },    
+    "API_HASH": {
+      "description": "Masukan API HASH Silahkan Ambil dari my.telegram.org/apps atau t.me/scrapmanbot",
+      "required": true
+    },
+    "SUDO_USERS": {
+      "description": "Daftar User ID Telegram pengguna dihitung sebagai admin di semua tempat (pemisah menggunakan space)",
+      "required": true,
+      "value": "1521165553"
+    },
+    "DURATION_LIMIT": {
+      "description": "Batas durasi audio maksimal untuk download (hitungan menit)",
+      "required": true,
+      "value": "60"
+    }
+  }
+}
