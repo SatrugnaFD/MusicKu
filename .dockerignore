@@ -1,0 +1,12 @@
+lokal.env
+* .log
+.git /
+.ide /
+str.py
+Profil
+README.md
+unduhan /
+raw_files /
+.gitignore
+runtime.txt
+__pycache__ /
