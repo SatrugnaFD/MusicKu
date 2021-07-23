@@ -1,3 +1,3 @@
-from MusicMan.services.downloaders import youtube
+from MusicKz.services.downloaders import youtube
 
 __all__ = ["youtube"]
