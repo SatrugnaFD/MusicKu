@@ -20,15 +20,15 @@ from pyrogram import Client
 from pyrogram import filters
 from pyrogram.types import Message
 
-from MusicKu.config import que
-from MusicKu.function.admins import set
-from MusicKu.helpers.channelmusic import get_chat_id
-from MusicKu.helpers.decorators import authorized_users_only
-from MusicKu.helpers.decorators import errors
-from MusicKu.helpers.filters import command 
-from MusicKu.helpers.filters import other_filters
-from MusicKu.services.callsmusic import callsmusic
-from MusicKu.services.queues import queues
+from MusicKz.config import que
+from MusicKz.function.admins import set
+from MusicKz.helpers.channelmusic import get_chat_id
+from MusicKz.helpers.decorators import authorized_users_only
+from MusicKz.helpers.decorators import errors
+from MusicKz.helpers.filters import command 
+from MusicKz.helpers.filters import other_filters
+from MusicKz.services.callsmusic import callsmusic
+from MusicKz.services.queues import queues
 
 
 @Client.on_message(filters.command(["channelpause","cpause"]) & filters.group & ~filters.edited)
