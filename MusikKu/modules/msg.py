@@ -15,10 +15,10 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 import os
-from MusicKu.config import ASSISTANT_NAME
-from MusicKu.config import PROJECT_NAME
-from MusicKu.config import SUPPORT_GROUP
-from MusicKu.config import UPDATES_CHANNEL
+from MusicKz.config import ASSISTANT_NAME
+from MusicKz.config import PROJECT_NAME
+from MusicKz.config import SUPPORT_GROUP
+from MusicKz.config import UPDATES_CHANNEL
 class Messages():
       HELP_MSG = [
         ".",
