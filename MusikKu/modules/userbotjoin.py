@@ -19,10 +19,10 @@ from pyrogram import Client
 from pyrogram import filters
 from pyrogram.errors import UserAlreadyParticipant
 import asyncio
-from MusicKu.helpers.decorators import authorized_users_only
-from MusicKu.helpers.decorators import errors
-from MusicKu.services.callsmusic import client as USER
-from MusicKu.config import SUDO_USERS
+from MusicKz.helpers.decorators import authorized_users_only
+from MusicKz.helpers.decorators import errors
+from MusicKz.services.callsmusic import client as USER
+from MusicKz.config import SUDO_USERS
 
 @Client.on_message(filters.command(["userbotjoin"]) & ~filters.private & ~filters.bot)
 @authorized_users_only
