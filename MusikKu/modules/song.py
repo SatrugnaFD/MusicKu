@@ -35,8 +35,8 @@ from pyrogram.types import Message
 from youtube_search import YoutubeSearch
 from youtubesearchpython import SearchVideos
 
-from MusicKu.config import DURATION_LIMIT
-from MusicKu.modules.play import arq
+from MusicKz.config import DURATION_LIMIT
+from MusicKz.modules.play import arq
 
 
 @Client.on_message(filters.command("song") & ~filters.channel)
