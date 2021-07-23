@@ -20,8 +20,8 @@ from typing import Callable
 from pyrogram import Client
 from pyrogram.types import Message
 
-from MusicKu.config import SUDO_USERS
-from MusicKu.helpers.admins import get_administrators
+from MusicKz.config import SUDO_USERS
+from MusicKz.helpers.admins import get_administrators
 
 
 def errors(func: Callable) -> Callable:
