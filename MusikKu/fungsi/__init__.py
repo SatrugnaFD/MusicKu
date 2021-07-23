@@ -1,5 +1,5 @@
-from MusicKu.function.admins import admins
-from MusicKu.function.admins import get
-from MusicKu.function.admins import set
+from MusicKz.function.admins import admins
+from MusicKz.function.admins import get
+from MusicKz.function.admins import set
 
 __all__ = ["set", "get", "admins"]
