@@ -16,14 +16,14 @@
 
 from pyrogram import Client
 import asyncio
-from MusicKu.config import SUDO_USERS
-from MusicKu.config import PMPERMIT
-from MusicKu.config import OWNER
-from MusicKu.config import SUPPORT_GROUP
-from MusicKu.config import PROJECT_NAME
+from MusicKz.config import SUDO_USERS
+from MusicKz.config import PMPERMIT
+from MusicKz.config import OWNER
+from MusicKz.config import SUPPORT_GROUP
+from MusicKz.config import PROJECT_NAME
 from pyrogram import filters
 from pyrogram.types import Message
-from MusicKu.services.callsmusic import client as USER
+from MusicKz.services.callsmusic import client as USER
 
 PMSET =True
 pchats = []
