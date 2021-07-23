@@ -1,1 +1,1 @@
-worker: python3 -m MusicKu
+worker: python3 -m MusicKz
