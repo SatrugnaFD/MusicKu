@@ -15,19 +15,19 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 import logging
-from MusicMan.modules.msg import Messages as tr
+from MusicKz.modules.msg import Messages as tr
 from pyrogram import Client
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup
 from pyrogram.types import InlineKeyboardButton
 from pyrogram.types import Message
-from MusicKu.config import SOURCE_CODE
-from MusicKu.config import ASSISTANT_NAME
-from MusicKu.config import PROJECT_NAME
-from MusicKu.config import SUPPORT_GROUP
-from MusicKu.config import UPDATES_CHANNEL
-from MusicKu.config import BOT_USERNAME
-from MusicKu.config import OWNER
+from MusicKz.config import SOURCE_CODE
+from MusicKz.config import ASSISTANT_NAME
+from MusicKz.config import PROJECT_NAME
+from MusicKz.config import SUPPORT_GROUP
+from MusicKz.config import UPDATES_CHANNEL
+from MusicKz.config import BOT_USERNAME
+from MusicKz.config import OWNER
 logging.basicConfig(level=logging.INFO)
 
 
