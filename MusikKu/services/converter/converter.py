@@ -18,7 +18,7 @@
 import asyncio
 from os import path
 
-from MusicKu.helpers.errors import FFmpegReturnCodeError
+from MusicKz.helpers.errors import FFmpegReturnCodeError
 
 
 async def convert(file_path: str) -> str:
