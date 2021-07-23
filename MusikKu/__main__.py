@@ -18,11 +18,11 @@
 import requests
 from pyrogram import Client as Bot
 
-from MusicKu.config import API_HASH
-from MusicKu.config import API_ID
-from MusicKu.config import BG_IMAGE
-from MusicKu.config import BOT_TOKEN
-from MusicKu.services.callsmusic import run
+from MusicKz.config import API_HASH
+from MusicKz.config import API_ID
+from MusicKz.config import BG_IMAGE
+from MusicKz.config import BOT_TOKEN
+from MusicKz.services.callsmusic import run
 
 response = requests.get(BG_IMAGE)
 with open("./etc/foreground.png", "wb") as file:
@@ -32,7 +32,7 @@ bot = Bot(
     API_ID,
     API_HASH,
     bot_token=BOT_TOKEN,
-    plugins=dict(root="MusicKu.modules"),
+    plugins=dict(root="MusicKz.modules"),
 )
 
 bot.start()
