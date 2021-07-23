@@ -38,26 +38,26 @@ from pyrogram.types import Message
 from Python_ARQ import ARQ
 from youtube_search import YoutubeSearch
 
-from MusicKu.config import ARQ_API_KEY
-from MusicKu.config import BOT_NAME as bn
-from MusicKu.config import DURATION_LIMIT
-from MusicKu.config import ASSISTANT_NAME
-from MusicKu.config import UPDATES_CHANNEL as updateschannel
-from MusicKu.config import que
-from MusicKu.function.admins import admins as a
-from MusicKu.helpers.admins import get_administrators
-from MusicKu.helpers.channelmusic import get_chat_id
-from MusicKu.helpers.errors import DurationLimitError
-from MusicKu.helpers.decorators import errors
-from MusicKu.helpers.decorators import authorized_users_only
-from MusicKu.helpers.filters import command
-from MusicKu.helpers.filters import other_filters
-from MusicKu.helpers.gets import get_file_name
-from MusicKu.services.callsmusic import callsmusic
-from MusicKu.services.callsmusic import client as USER
-from MusicKu.services.converter.converter import convert
-from MusicKu.services.downloaders import youtube
-from MusicKu.services.queues import queues
+from MusicKz.config import ARQ_API_KEY
+from MusicKz.config import BOT_NAME as bn
+from MusicKz.config import DURATION_LIMIT
+from MusicKz.config import ASSISTANT_NAME
+from MusicKz.config import UPDATES_CHANNEL as updateschannel
+from MusicKz.config import que
+from MusicKz.function.admins import admins as a
+from MusicKz.helpers.admins import get_administrators
+from MusicKz.helpers.channelmusic import get_chat_id
+from MusicKz.helpers.errors import DurationLimitError
+from MusicKz.helpers.decorators import errors
+from MusicKz.helpers.decorators import authorized_users_only
+from MusicKz.helpers.filters import command
+from MusicKz.helpers.filters import other_filters
+from MusicKz.helpers.gets import get_file_name
+from MusicKz.services.callsmusic import callsmusic
+from MusicKz.services.callsmusic import client as USER
+from MusicKz.services.converter.converter import convert
+from MusicKz.services.downloaders import youtube
+from MusicKz.services.queues import queues
 
 aiohttpsession = aiohttp.ClientSession()
 chat_id = None
