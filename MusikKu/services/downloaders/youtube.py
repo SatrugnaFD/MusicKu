@@ -20,8 +20,8 @@ from os import path
 
 from youtube_dl import YoutubeDL
 
-from MusicKu.config import DURATION_LIMIT
-from MusicKu.helpers.errors import DurationLimitError
+from MusicKz.config import DURATION_LIMIT
+from MusicKz.helpers.errors import DurationLimitError
 
 ydl_opts = {
     "format": "bestaudio[ext=m4a]",
